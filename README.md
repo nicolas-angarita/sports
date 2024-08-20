@@ -2,7 +2,7 @@
 
 <br>
 
-*https://ravenswire.usatoday.com/wp-content/uploads/sites/55/2019/12/gettyimages-1193623120.jpg?w=1000&h=600&crop=1*
+<img src="https://ravenswire.usatoday.com/wp-content/uploads/sites/55/2019/12/gettyimages-1193623120.jpg?w=1000&h=600&crop=1" alt="Lamar Jackson">
 
 # Project Goals
 
