@@ -2,6 +2,8 @@
 
 <br>
 
+*https://ravenswire.usatoday.com/wp-content/uploads/sites/55/2019/12/gettyimages-1193623120.jpg?w=1000&h=600&crop=1*
+
 # Project Goals
 
  - Indentify what features or factors most influence NFL Games outcomes
