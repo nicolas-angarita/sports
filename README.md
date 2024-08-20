@@ -50,7 +50,7 @@ Project Quote: 'Show me the data'
 
 | Target Variable |     Definition     |
 | --------------- | ------------------ |
-|      btc_price    | price of Bitcoin |
+|      winner    | price of Bitcoin |
 
 | Feature  | Definition |
 | ------------- | ------------- |
