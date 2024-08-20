@@ -54,11 +54,20 @@ Project Quote: 'Show me the data'
 
 | Feature  | Definition |
 | ------------- | ------------- |
-| open | Opening price of the asset |
-| high | The high price point of the asset  |
-| low | The low price point of the asset |
-| close | The closing price of the asset |
-| adj close | The closing price after adjustments  |
-| volume | The amount of an asset that changes hands | 
-| dji_price | The price of the Dow Jones Industrial Average |
-| gold | The price of gold per ounce|
+| date | Opening price of the asset |
+| h_team | The high price point of the asset  |
+| a_team | The low price point of the asset |
+| g# | The closing price of the asset |
+| week | The closing price after adjustments  |
+| h_pts | The amount of an asset that changes hands | 
+| a_pts | The price of the Dow Jones Industrial Average |
+| ptdif | The price of gold per ounce|
+| pc | Opening price of the asset |
+| month | The high price point of the asset  |
+| day_of_week | The low price point of the asset |
+| time_of_game | The closing price of the asset |
+| time_zone | The closing price after adjustments  |
+| travel_distance | The amount of an asset that changes hands | 
+| weather | The price of the Dow Jones Industrial Average |
+| stadium | The price of gold per ounce|
+
