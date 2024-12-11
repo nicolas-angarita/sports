@@ -50,24 +50,77 @@ Project Quote: 'Show me the data'
 
 | Target Variable |     Definition     |
 | --------------- | ------------------ |
-|      winner    | price of Bitcoin |
+|      home_results    | 0 refers to the away team winning and 1 refers to the home team winning |
 
 | Feature  | Definition |
 | ------------- | ------------- |
-| date | Opening price of the asset |
-| h_team | The high price point of the asset  |
-| a_team | The low price point of the asset |
-| g# | The closing price of the asset |
-| week | The closing price after adjustments  |
-| h_pts | The amount of an asset that changes hands | 
-| a_pts | The price of the Dow Jones Industrial Average |
-| ptdif | The price of gold per ounce|
-| pc | Opening price of the asset |
-| month | The high price point of the asset  |
-| day_of_week | The low price point of the asset |
-| time_of_game | The closing price of the asset |
-| time_zone | The closing price after adjustments  |
-| travel_distance | The amount of an asset that changes hands | 
-| weather | The price of the Dow Jones Industrial Average |
-| stadium | The price of gold per ounce|
+| game_id | a unique identifier for each game played with the season, week, home team, and away team |
+| home_team | the home team for that game  |
+| away_team | the away team for that game |
+| date | date of the game played on |
+| season | the year the season was played  |
+| month | refers to the month the game played in (i.e. 10 = October, 12 = December) | 
+| week | refers to the week of the NFL season |
+| day_of_week | refers to the day the game was played on (i.e. 0 = Monday - 6 = Sunday) |
+| overtime | 0 refers to no overtime and 1 refers to yes there was overtime in the game |
+| home_pts | refers to the amount of points the home team scored  |
+| away_pts | refers to the amount of points the away team scored |
+| home_pass_cmp | home team passing completions |
+| away_pass_cmp | away team passing completions |
+| home_pass_att | home team passing attempts |
+| away_pass_att | away team passing attempts |
+| home_pass_yds | home team passing yards |
+| away_pass_yds | away team passing yards |
+| home_pass_td | home team passing touchdowns |
+| away_pass_td | away team passing touchdown  |
+| home_int | home team interceptions thrown |
+| away_int | away team interceptions thrown |
+| home_sk | home team allowed sacks |
+| away_sk | away team allowed sacks |
+| home_yds_lost_sks | home team lost yards from sacks |
+| away_yds_lost_sks | away team lost yards from sacks |
+| home_yds_pass_att | home team yards per pass attempt |
+| away_yds_pass_att | away team yards per pass attempt  |
+| home_net_yds_pass_att | home team net yards per pass | 
+| away_net_yds_pass_att | away team net yards per pass |
+| home_cmp% | home team passing completion percent|
+| away_cmp% | away team passing completion percent |
+| home_pass_rating | home team passer rating  |
+| away_pass_rating | away team passer rating | 
+| home_rush_att | home team rushing attempts |
+| away_rush_att | away team rushing attempts |
+| home_rush_yds | home team rushing yards |
+| away_rush_yds | away team rushing yards  |
+| home_rush_yds_att | home team rushing yards per attempt |
+| away_rush_yds_att | away team rushing yards per attempt |
+| home_rush_td | home team rushing touchdowns |
+| away_rush_td | away teams rushing touchdowns  |
+| home_fgm | home team field goals made |
+| away_fgm | away team field goals made |
+| home_fga | home team field goals attempts |
+| away_fga | away team field goals attempts  |
+| home_xpm | home team extra points made  |
+| away_xpm | away team extra points made |
+| home_xpa | home team extra points attempts |
+| away_xpa | away team extra points attempts |
+| home_pnt | home team number of punts  |
+| away_pnt | away team number of punts |
+| home_punt_yds | home team punt yards |
+| away_punt_yds | away team punt yards |
+| home_3dconv | home team 3rd down conversions |
+| away_3dconv | away team 3rd down conversions | 
+| home_3datt | home team 3rd down attempts |
+| away_3datt | away team 3rd down attempts |
+| home_4dconv  | home team 4th down conversions  |
+| away_4dconv | away team 4th down conversions |
+| home_4datt | home team 4th down attempts |
+| away_4datt | away team 4th down attempts |
+| home_top | home team time of possession  |
+| away_top | away team time of possession |
+| pts_diff_home | points differential in perspective of the home team (i.e. -5 means the away team scored 5 more points than the home team, 7 means the home team scored 7 more points than the away team) |
+| pass_yds_diff_home | passing yards differential in perspective of the home team (i.e. negative passing yards means the away team had that number more of the home team, positive yards means the home team had that many more passing yards than the away team) |
+| rush_yds_diff_home | rushing yards differential in the perspective of the home team(i.e. (i.e. negative rushing yards means the away team had that number more of the home team, positive yards means the home team had that many more rushing yards than the away team) |
+| top_diff_home | time of possession differential in the perspective of the home team(i.e. negative time means the away team had that more of time of possession than the home team, if the time is positive that means the home team had that amount of time of possession more than the away team.) Also, time is recorded in seconds |
+| home_total_yds | home team total passing and rushing yards |
+| away_total_yds | away team total passing and rushing yards |
 
